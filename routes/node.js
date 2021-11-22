@@ -24,7 +24,6 @@ router.get('/:id', (req, res) => {
 router.post('/', async (req, res) => {
     const node = new Node({
         name: req.body.name,
-        description: req.body.description,
         maintainer_email: req.body.maintainer_email,
         address: req.body.address,
 
