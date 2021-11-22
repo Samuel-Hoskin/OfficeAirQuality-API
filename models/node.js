@@ -6,10 +6,6 @@ const nodeSchema = new mongoose.Schema({
     required: true,
     unique: true,
   },
-  description: {
-    type: String,
-    required: true,
-  },
   maintainer_email: {
     type: String,
     required: true,
